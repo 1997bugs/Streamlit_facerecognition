@@ -1,7 +1,6 @@
 numpy
 pandas
 scipy
-itertools
 opencv-python-headless
 keras
 opencv-python
