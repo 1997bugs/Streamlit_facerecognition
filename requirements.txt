@@ -1,8 +1,7 @@
 numpy
 pandas
 scipy
-cmake
-dlib
+streamlit
 opencv-python
 opencv-python-headless
 keras
