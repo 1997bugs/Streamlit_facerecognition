@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+mediapipe
+matplotlib
+facenet-pytorch
+Pillow
+torchvision
+mtcnn
+tensorflow
