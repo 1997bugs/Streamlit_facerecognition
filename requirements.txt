@@ -1,7 +1,9 @@
 numpy
 pandas
 scipy
-libgl1 
+opencv
+cmake
+dlib
 opencv-python
 opencv-python-headless
 keras
