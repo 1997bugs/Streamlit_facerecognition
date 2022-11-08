@@ -1,7 +1,9 @@
-numpy==1.20.2
-keras==2.9.0
-opencv-python-headless==4.6.0.66
-pandas==1.4.3
+numpy
+pandas
+scipy
+itertools
+opencv-python-headless
+keras
 opencv-python
 mediapipe
 matplotlib
