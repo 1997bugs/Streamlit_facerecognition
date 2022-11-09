@@ -1,5 +1,6 @@
 import streamlit as st
 import cv2
+import s3fs
 import mediapipe as mp
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,7 +24,7 @@ import os
 from mtcnn.mtcnn import MTCNN as mtcnn_det
 
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
-
+fs = s3fs.S3FileSystem(anon=False)
 
 st.title("Face Recongnition ECC Project")
 
@@ -58,6 +59,7 @@ def main():
         im = cv2.imread("group.JPG")
         im=cv2.cvtColor(im, cv2.COLOR_RGB2BGR)
         st.image(im)
+	
 
     if add_selectbox == "Login Page - Load Images":
         st.subheader("Load Images Here")
